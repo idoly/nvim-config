@@ -2,7 +2,7 @@ vim.cmd("packadd nvim-tree.lua")
 
 require("nvim-tree").setup({
   git = {
-    enable = true,
+    enable = false,
   },
   renderer = {
     icons = {
@@ -10,22 +10,14 @@ require("nvim-tree").setup({
         file = false,
         folder = false,
         folder_arrow = true,
-        git = true,
+        git = false,
       },
       glyphs = {
         folder = {
           arrow_closed = ">",
           arrow_open = "v",
         },
-        git = {
-          unstaged = "M",
-          staged = "S",
-          unmerged = "U",
-          renamed = "R",
-          untracked = "?",
-          deleted = "D",
-          ignored = "!",
-        },
+
       },
     },
   },
