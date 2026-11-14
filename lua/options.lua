@@ -1,0 +1,7 @@
+vim.opt.termguicolors = true
+vim.opt.number = true
+vim.opt.ignorecase = true
+vim.opt.smartcase = true
+vim.opt.expandtab = true
+vim.opt.shiftwidth = 2
+vim.opt.tabstop = 2
