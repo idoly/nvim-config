@@ -19,7 +19,6 @@ sudo apt-get install --no-install-recommends curl
 bash scripts/install-neovim.sh
 
 bash scripts/install-plugins.sh
-bash scripts/install-treesitter.sh
 ```
 
 `install-neovim.sh` 覆盖系统 Neovim，不备份，APT 版本记录不变。
@@ -37,8 +36,7 @@ lua/
 bin/treesitter-cc
 scripts/
 ├── install-neovim.sh
-├── install-plugins.sh
-└── install-treesitter.sh
+└── install-plugins.sh
 ```
 
 ## nvim-tree
